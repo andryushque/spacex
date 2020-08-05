@@ -7,6 +7,7 @@ body {
   padding-top: 53px;
   background: #010001;
   font-family: "Roboto", sans-serif;
+  color: #ffffff;
 }
 
 /*=== Header ===*/
@@ -50,4 +51,40 @@ body {
 
 .secondary-link {
   color: #808080;
+}
+
+/*=== Main ===*/
+.main {
+  padding-top: 120px;
+  padding-bottom: 30px;
+}
+
+.title {
+  margin-top: 0;
+  margin-bottom: 26px;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 64px;
+  line-height: 75px;
+  text-align: center;
+}
+
+.description {
+  max-width: 268px;
+  margin: 0 auto;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 22px;
+  text-align: center;
+  text-transform: lowercase;
+}
+
+.description::after {
+  content: "";
+  display: block;
+  width: 1px;
+  height: 60px;
+  margin: 26px auto 0;
+  background-color: #fff;
 }
