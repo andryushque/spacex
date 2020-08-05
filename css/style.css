@@ -98,10 +98,11 @@ body {
 
 /*=== Features ===*/
 .features {
+  position: relative;
   max-width: 1230px;
   width: 90%;
   margin: auto;
-  padding: 50px 0;
+  padding: 250px 0 100px;
 }
 
 .features-title {
@@ -138,4 +139,11 @@ body {
   font-weight: normal;
   font-size: 16px;
   line-height: 29px;
+}
+
+.rocket {
+  position: absolute;
+  top: 100px;
+  right: 0;
+  z-index: 99;
 }
